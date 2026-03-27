@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+      <key>PayloadContent</key>
+      <array>
+        <dict>
+          <key>DNSSettings</key>
+          <dict>
+            <key>DNSProtocol</key>
+            <string>HTTPS</string>
+            <key>ServerAddresses</key>
+            <array>
+              <string>104.16.132.229</string>
+<string>104.16.133.229</string>
+<string>162.159.0.33</string>
+<string>162.159.8.55</string>
+<string>162.159.2.9</string>
+<string>162.159.5.6</string>
+<string>162.159.6.6</string>
+<string>104.16.124.96</string>
+<string>104.16.123.96</string>
+<string>1.1.1.1</string>
+<string>2606:4700::6810:7c60</string>
+<string>2606:4700::6810:7b60</string>
+<string>2606:4700::6810:85e5</string>
+<string>2606:4700::6810:84e5</string>
+
+            </array>
+            <key>ServerURL</key>
+            <string>https://dns.cloudflare.com/dns-query</string>
+          </dict>
+          <key>PayloadDescription</key>
+          <string>Configures device to use Cloudflare10292025DoHipV4V6 Encrypted DNS over HTTPS</string>
+          <key>PayloadDisplayName</key>
+          <string>Cloudflare10292025DoHipV4V6 DNS over HTTPS</string>
+          <key>PayloadIdentifier</key>
+          <string>com.apple.dnsSettings.managed.cfef42d6-5b50-446c-98ae-973d294a3beb</string>
+          <key>PayloadType</key>
+          <string>com.apple.dnsSettings.managed</string>
+          <key>PayloadUUID</key>
+          <string>ad491781-3548-4dec-83ae-724c1456faa0</string>
+          <key>PayloadVersion</key>
+          <integer>1</integer>
+          <key>ProhibitDisablement</key>
+          <false/>
+        </dict>
+      </array>
+      <key>PayloadDescription</key>
+      <string>Adds the Cloudflare10292025DoHipV4V6 DNS to Big Sur and iOS 14 based systems</string>
+      <key>PayloadDisplayName</key>
+      <string>Cloudflare10292025DoHipV4V6 DNS over HTTPS</string>
+      <key>PayloadIdentifier</key>
+      <string>plus.simpledns.apple-dns</string>
+      <key>PayloadRemovalDisallowed</key>
+      <false/>
+      <key>PayloadType</key>
+      <string>Configuration</string>
+      <key>PayloadUUID</key>
+      <string>15458685-3adc-4ee8-a674-3a200652d134</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+</dict>
+</plist>
